@@ -1,0 +1,87 @@
+*{
+    font-family: 'Questrial', sans-serif;
+}
+.header{
+    background-color: black;
+    /* height: 150px; */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 20px;
+    text-align: right;
+    
+}
+.navlink {
+    text-decoration: none;
+    margin: 20px;
+    padding-top: 20px;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    
+
+}
+.navlink:hover{
+    color:  rgb(219, 185, 185);
+}
+.h1{
+    position: relative;
+    color: white;
+    flex: left;
+    margin: 30px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+.buttons{
+    float: right;
+    border: 1px solid black;
+}
+.contact-row{
+    background-color: rgb(215, 236, 248);
+    font-size: 20px;
+}
+.contact-link{
+    color: black;
+}
+.contact-link:visited {
+    color: black;
+}
+.contact-link:hover{
+    color: white;
+}
+.contact-row:hover{
+    background-color: rgb(150, 151, 151);
+}
+.table-header{
+    background-color: black;
+    font-size: 28px;
+    color: white;
+}
+.client-info-section{
+    background-color: rgb(219, 185, 185);
+    height: 370px;
+}
+.current-client{
+    /* background-color: rgb(150, 151, 151); */
+    background-color: rgb(219, 185, 185);
+    font-size: 16px;
+    width: 50%;
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 20px;
+    float: left;
+}
+.contact-form{
+    background-color: rgb(219, 185, 185);
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+.form-group{
+    font-size: 20px;
+
+}

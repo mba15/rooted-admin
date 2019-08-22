@@ -1,0 +1,15 @@
+import React from "react";
+import NavBar from "./NavBar";
+
+
+function ClientHeader(){
+    return(
+        <div className="header">
+            <NavBar />
+            <h1 className="h1">Rooted In The Heart</h1>
+        </div>
+            
+    )
+}
+
+export default ClientHeader;
